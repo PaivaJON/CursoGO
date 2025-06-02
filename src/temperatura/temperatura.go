@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-const ebulicaoF float64 = 212.0
+const ebulicaoF = 212.0
 
 func main() {
 
-	var tempF float64 = ebulicaoF
-	var tempC float64 = (tempF - 32) * 5 / 9
+	tempF := ebulicaoF
+	tempC := (tempF - 32) * 5 / 9
 	fmt.Println("A temperatura de ebulicao da agua em F =", tempF)
 	fmt.Println("A temperatura de ebulicao da agua em C =", tempC)
 
